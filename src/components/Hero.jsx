@@ -19,7 +19,7 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-color-1 opacity-60" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-color-1" />
             </span>
-            <span className="tagline text-n-4">Digital Studio · Est. 2023</span>
+            <span className="tagline text-n-4">Digital Studio · Est. 2021</span>
           </div>
 
           <h1 className="h1 mb-4 text-n-1">
