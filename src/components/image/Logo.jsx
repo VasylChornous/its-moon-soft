@@ -33,7 +33,6 @@ const Logo = ({ onClick }) => (
       </defs>
     </svg>
 
-    {/* wordmark — full rainbow gradient */}
     <span
       className="font-semibold text-sm tracking-wide leading-none"
       style={{

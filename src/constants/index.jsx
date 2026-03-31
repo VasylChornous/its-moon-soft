@@ -9,22 +9,22 @@ export const navigation = [
 export const featuresData = [
   {
     title: "Product-first thinking",
-    text: "We don't just execute briefs — we challenge assumptions, ask hard questions, and push for solutions that serve your users and your business goals.",
+    text: "We don't just execute briefs - we challenge assumptions, ask hard questions and push for solutions that serve your users and your business goals.",
     accent: "#ac6aff",
   },
   {
     title: "Speed without sacrifice",
-    text: "Our teams are built for momentum. We move fast through discovery, design, and delivery — without cutting corners on quality or craft.",
+    text: "Our teams are built for momentum. We move fast through discovery, design and delivery - without cutting corners on quality or craft.",
     accent: "#858dff",
   },
   {
     title: "Transparent by default",
-    text: "Every sprint, every decision, every blocker — you see it all. No surprises, no black boxes. Just clear communication from day one.",
+    text: "Every sprint, every decision, every blocker - you see it all. No surprises, no black boxes. Just clear communication from day one.",
     accent: "#ffc876",
   },
   {
     title: "Long-term partnership",
-    text: "Our best relationships don't end at launch. We stay close, iterate based on real data, and grow with your product over time.",
+    text: "Our best relationships don't end at launch. We stay close, iterate based on real data and grow with your product over time.",
     accent: "#7adb78",
   },
 ];
@@ -50,7 +50,7 @@ export const servicesData = [
   {
     id: 1,
     title: "UI / UX Design",
-    text: "From wireframes to polished interfaces we design products that feel intuitive, look exceptional and convert. Every screen is built with purpose.",
+    text: "We combine strategic UX thinking with visually refined UI to build digital experiences that are intuitive, consistent and crafted to perform.",
     accent: "#ac6aff",
     accentRgb: "172,106,255",
     tag: "Design",
@@ -96,7 +96,7 @@ export const servicesData = [
   {
     id: 3,
     title: "Mobile Applications",
-    text: "iOS and Android apps that feel native, perform smoothly, and scale with your user base. We handle everything from MVP to App Store launch.",
+    text: "iOS and Android apps that feel native, perform smoothly and scale with your user base. We handle everything from MVP to App Store launch.",
     accent: "#ffc876",
     accentRgb: "255,200,118",
     tag: "Mobile",
@@ -119,7 +119,7 @@ export const servicesData = [
   {
     id: 4,
     title: "Brand Identity",
-    text: "Logo, typography, color systems and guidelines — we create brand identities that hold up across every touchpoint and grow with your company.",
+    text: "Logo, typography, color systems and guidelines - we create brand identities that hold up across every touchpoint and grow with your company.",
     accent: "#ff98e2",
     accentRgb: "255,152,226",
     tag: "Branding",
@@ -190,14 +190,14 @@ export const teamCards = [
     accent: "#ac6aff",
     accentRgb: "172,106,255",
     title: "Designers who think in systems",
-    text: "Our UI/UX team doesn't just make things look good — they architect experiences that convert, retain, and delight. Every pixel has a purpose.",
+    text: "Our UI/UX team doesn't just make things look good - they architect experiences that convert, retain and delight. Every pixel has a purpose.",
     tag: "Design",
   },
   {
     accent: "#ffc876",
     accentRgb: "255,200,118",
     title: "Engineers who ship with confidence",
-    text: "From clean APIs to polished frontends, our developers write code that scales. No technical debt, no shortcuts — just solid, maintainable software.",
+    text: "From clean APIs to polished frontends, our developers write code that scales. No technical debt, no shortcuts - just solid, maintainable software.",
     tag: "Engineering",
   },
   {
@@ -211,14 +211,14 @@ export const teamCards = [
     accent: "#ff776f",
     accentRgb: "255,119,111",
     title: "QA minds obsessed with quality",
-    text: "Before anything ships, our QA specialists break it apart. Edge cases, accessibility, performance — nothing slips through the cracks.",
+    text: "Before anything ships, our QA specialists break it apart. Edge cases, accessibility, performance - nothing slips through the cracks.",
     tag: "Quality",
   },
   {
     accent: "#7adb78",
     accentRgb: "122,219,120",
     title: "PMs who respect your time",
-    text: "No endless status calls. Our project managers run tight loops, surface blockers fast, and keep every sprint moving toward the outcome that matters.",
+    text: "No endless status calls. Our project managers run tight loops, surface blockers fast and keep every sprint moving toward the outcome that matters.",
     tag: "Management",
   },
   {

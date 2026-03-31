@@ -1,8 +1,8 @@
 import Section from "./Section";
 
-const CTA = () => (
+const CTA = ({ onOpenModal }) => (
   <Section
-    className="pt-[12rem] pb-24 -mt-[5.25rem]"
+    className="pt-[3rem] sm:pt-[9rem] pb-12 sm:pb-24 -mt-[5.25rem]"
     crosses
     crossesOffset="lg:translate-y-[5.25rem]"
     customPaddings
@@ -19,24 +19,27 @@ const CTA = () => (
         <div className="flex flex-col gap-4 max-w-lg">
           <p className="tagline text-n-4">Ready when you are</p>
           <h2 className="h2 font-semibold text-n-1 leading-tight">
-            Let's build something
+            Let’s build something that drives
             <br />
-            worth shipping.
+            real results
           </h2>
           <p className="body-2 text-n-4 max-w-sm">
-            No pitch decks. No long onboarding. Just senior people who care
-            about your outcome.
+            From idea to production - fast, focused and built by people who’ve
+            done it before
           </p>
         </div>
 
         <div className="flex flex-col items-start md:items-end gap-4 flex-shrink-0">
           <button
+            onClick={onOpenModal}
             className="group flex items-center gap-3 px-7 py-4 rounded-full
                        border border-n-5 hover:border-n-3
                        text-n-1 text-sm font-semibold uppercase tracking-widest
-                       transition-all duration-300 hover:bg-white/5"
+                       transition-all duration-300 hover:bg-white/5
+                       hover:-translate-y-0.5 hover:shadow-lg hover:shadow-white/10
+                       active:translate-y-0 active:shadow-none cursor-pointer"
           >
-            Book a call
+            Get a product audit
             <svg
               className="transition-transform duration-300 group-hover:translate-x-1"
               width="14"

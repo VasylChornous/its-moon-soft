@@ -18,15 +18,15 @@ const AboutUs = () => (
             title="Companies choose us when results actually matter"
           />
           <p className="body-2 text-n-4 max-w-sm">
-            We've worked with startups, scale-ups, and enterprise teams across
-            SaaS, FinTech, and eCommerce. The common thread — they needed a
-            partner, not just a vendor.
+            We've worked with startups, scale-ups and enterprise teams across
+            SaaS, FinTech and eCommerce. The common threadthey needed a partner
+            not just a vendor
           </p>
 
           <div className="flex gap-8 mt-10 pt-8 border-t border-n-6">
             {[
-              { n: "3+", l: "Years" },
-              { n: "150+", l: "Projects" },
+              { n: "5+", l: "Years" },
+              { n: "100+", l: "Projects" },
               { n: "20+", l: "Team members" },
             ].map((s) => (
               <div key={s.l}>

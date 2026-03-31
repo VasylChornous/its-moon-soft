@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[6rem] sm:pt-[9rem] -mt-[5.25rem]"
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero"
@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="tagline text-n-4">Digital Studio · Est. 2023</span>
           </div>
 
-          <h1 className="h1 mb-8 text-n-1">
+          <h1 className="h1 mb-4 text-n-1">
             We are{" "}
             <span
               style={{
@@ -34,8 +34,10 @@ const Hero = () => {
             >
               It'sMoonSoft
             </span>
-            <br />A digital design &amp; development studio
           </h1>
+          <h2 className="h2 mb-8 text-n-3">
+            We design build and scale products that drive real business results
+          </h2>
 
           <div className="flex flex-wrap justify-center gap-2 mb-10">
             {services.map((s) => (
@@ -83,8 +85,8 @@ const Hero = () => {
             <div className="relative z-10 flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-16">
               <div className="flex flex-row lg:flex-col gap-8 lg:gap-6 flex-shrink-0">
                 {[
-                  { value: "3+", label: "Years in business" },
-                  { value: "150+", label: "Projects shipped" },
+                  { value: "5+", label: "Years in business" },
+                  { value: "100+", label: "Projects shipped" },
                   { value: "98%", label: "Client satisfaction" },
                 ].map((stat) => (
                   <div key={stat.label} className="flex flex-col">

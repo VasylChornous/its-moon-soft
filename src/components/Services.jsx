@@ -7,10 +7,10 @@ const Services = () => (
   <Section id="services">
     <div className="container relative z-2">
       <Heading
-        className="md:max-w-md lg:max-w-2xl"
+        className="md:max-w-md lg:max-w-[50rem]"
         tag="What we do"
         title="We take products from zero to hero"
-        text="Six core disciplines, one cohesive team — everything your product needs under one roof."
+        text="Six core disciplines, one cohesive team - everything your product needs under one roof"
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
