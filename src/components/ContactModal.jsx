@@ -49,11 +49,11 @@ function TextField({ label, required, error, ...props }) {
       <input
         {...props}
         className={`
-          w-full bg-transparent rounded-xl border-2 px-4 py-3.5
-          text-stone-900 text-[15px] placeholder:text-stone-300
-          focus:outline-none focus:border-stone-900
-          transition-colors duration-200
-          ${error ? "border-red-400" : "border-stone-200"}
+          w-full bg-white rounded-xl border px-4 py-3.5
+          text-stone-800 text-[15px] placeholder:text-stone-400
+          focus:outline-none focus:ring-2 focus:ring-amber-400/30 focus:border-stone-300
+          transition-all duration-200
+          ${error ? "border-red-400" : "border-stone-200/80"}
         `}
       />
       {error && <p className="text-xs text-red-500 mt-1.5 pl-1">{error}</p>}
@@ -193,7 +193,7 @@ export default function ContactModal({ isOpen, onClose }) {
     >
       <div
         ref={modalRef}
-        className="relative w-full sm:max-w-xl bg-white sm:rounded-2xl shadow-2xl overflow-y-auto sm:max-h-[90vh] flex flex-col"
+        className="relative w-full sm:max-w-xl bg-[#f5f3f0] sm:rounded-2xl shadow-2xl overflow-y-auto sm:max-h-[90vh] flex flex-col"
         style={{
           animation: "modalIn 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
         }}
@@ -205,7 +205,7 @@ export default function ContactModal({ isOpen, onClose }) {
             onClick={onClose}
             aria-label="Close dialog"
             className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center
-                       text-stone-400 hover:text-stone-800 hover:bg-stone-100 transition-all duration-200 z-10"
+                       text-stone-400 hover:text-stone-700 hover:bg-stone-200/50 transition-all duration-200 z-10"
           >
             <svg
               width="16"
@@ -230,7 +230,7 @@ export default function ContactModal({ isOpen, onClose }) {
                 <p className="text-amber-600 text-xs font-bold tracking-[0.2em] uppercase mb-2">
                   Get in touch
                 </p>
-                <h2 className="text-stone-900 text-xl sm:text-2xl font-bold leading-snug tracking-tight">
+                <h2 className="text-stone-800 text-xl sm:text-2xl font-bold leading-snug tracking-tight">
                   Let's build something
                   <br />
                   remarkable together
@@ -266,8 +266,8 @@ export default function ContactModal({ isOpen, onClose }) {
                       Phone <span className="text-amber-500 ml-0.5">*</span>
                     </label>
                     <div
-                      className={`rounded-xl border-2 transition-colors duration-200 focus-within:border-stone-900 cursor-text ${
-                        errors.phone ? "border-red-400" : "border-stone-200"
+                      className={`rounded-xl border bg-white transition-all duration-200 focus-within:ring-2 focus-within:ring-amber-400/30 focus-within:border-stone-300 cursor-text ${
+                        errors.phone ? "border-red-400" : "border-stone-200/80"
                       }`}
                     >
                       <PhoneInput
@@ -310,9 +310,9 @@ export default function ContactModal({ isOpen, onClose }) {
                     value={form.message}
                     onChange={handleChange}
                     placeholder="Tell us about your goals, timeline and budget..."
-                    className="w-full bg-transparent rounded-xl border-2 border-stone-200 px-4 py-3.5
-                               text-stone-900 text-[15px] placeholder:text-stone-300
-                               focus:outline-none focus:border-stone-900 transition-colors duration-200 resize-none"
+                    className="w-full bg-white rounded-xl border border-stone-200/80 px-4 py-3.5
+                               text-stone-800 text-[15px] placeholder:text-stone-400
+                               focus:outline-none focus:ring-2 focus:ring-amber-400/30 focus:border-stone-300 transition-all duration-200 resize-none"
                   />
                 </div>
 
@@ -327,7 +327,7 @@ export default function ContactModal({ isOpen, onClose }) {
                                active:translate-y-0 active:shadow-none
                                disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
                     style={{
-                      background: "linear-gradient(135deg, #292524, #44403c)",
+                      background: "linear-gradient(135deg, #1c1917, #352f2b)",
                     }}
                   >
                     {status === "sending" ? (
@@ -408,7 +408,7 @@ export default function ContactModal({ isOpen, onClose }) {
           input:-webkit-autofill,
           input:-webkit-autofill:hover,
           input:-webkit-autofill:focus {
-            -webkit-box-shadow: 0 0 0px 1000px #fafafa inset !important;
+            -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
             -webkit-text-fill-color: #1c1917 !important;
             caret-color: #1c1917 !important;
             transition: background-color 5000s ease-in-out 0s !important;
