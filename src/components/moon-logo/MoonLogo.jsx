@@ -78,7 +78,7 @@ export default function MoonLogo() {
         width: size,
         height: size,
         flexShrink: 0,
-        marginTop: isMobile ? 8 : 10,
+        marginTop: 0,
       }}
     >
       <div
