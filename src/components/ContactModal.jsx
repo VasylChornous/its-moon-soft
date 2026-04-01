@@ -182,7 +182,7 @@ export default function ContactModal({ isOpen, onClose }) {
     <div
       className="fixed inset-0 z-[100] flex items-stretch sm:items-center justify-center p-0 sm:p-4"
       style={{
-        background: "rgba(28, 25, 23, 0.6)",
+        background: "rgba(28, 25, 23, 0.5)",
         backdropFilter: "blur(12px)",
         WebkitBackdropFilter: "blur(12px)",
       }}
@@ -193,7 +193,7 @@ export default function ContactModal({ isOpen, onClose }) {
     >
       <div
         ref={modalRef}
-        className="relative w-full sm:max-w-xl bg-neutral-50 sm:rounded-2xl shadow-2xl overflow-y-auto sm:max-h-[90vh] flex flex-col"
+        className="relative w-full sm:max-w-xl bg-white sm:rounded-2xl shadow-2xl overflow-y-auto sm:max-h-[90vh] flex flex-col"
         style={{
           animation: "modalIn 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
         }}
