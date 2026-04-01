@@ -2,13 +2,13 @@ import Section from "./Section";
 
 const CTA = ({ onOpenModal }) => (
   <Section
-    className="pt-12 sm:pt-32 pb-12 sm:pb-24 -mt-[5.25rem]"
+    className="pt-12 sm:pt-32 pb-12 sm:pb-10 -mt-[5.25rem]"
     crosses
     crossesOffset="lg:translate-y-[5.25rem]"
     customPaddings
     id="cta"
   >
-    <div className="container">
+    <div className="container mx-auto">
       <div
         className="relative rounded-[2rem] px-8 py-16 md:px-20 md:py-20 flex flex-col md:flex-row md:items-center md:justify-between gap-10"
         style={{
